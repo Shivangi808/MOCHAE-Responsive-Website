@@ -1,0 +1,240 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #2d1a0f;
+    color: white;
+}
+.hero {
+    position: relative;
+    width: 100%;
+}
+
+
+.hero-img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* ------------------------------------------- */
+/* NAVBAR */
+/* ------------------------------------------- */
+
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 500px;   /* Adjust as you need */
+    width: 100%;
+    padding: 25px 70px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    z-index: 10;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    opacity: 0.8;
+    transition: .3s;
+}
+
+.navbar ul li a:hover {
+    opacity: 1;
+}
+
+.active {
+    border-bottom: 2px solid white;
+    padding-bottom: 5px;
+    opacity: 1 !important;
+}
+
+/* ------------------------------------------- */
+/* UNIVERSAL BUTTON STYLE */
+/* ------------------------------------------- */
+
+.cta-btn {
+    position: absolute;
+    padding: 14px 38px;
+    background: #b26b2cc9;
+    border: none;
+    border-radius: 40px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    transition: .3s;
+    z-index: 10;
+}
+
+.cta-btn:hover {
+    transform: scale(1.08);
+}
+
+/* ------------------------------------------- */
+/* INDIVIDUAL BUTTON CONTROL */
+/* ------------------------------------------- */
+
+/* Banner 1 button */
+.btn-banner1 {
+    bottom: 4%;
+    right: 15%;
+}
+
+/* Banner 3 button */
+.btn-banner3 {
+    bottom: 15%;
+    right: 20%;
+}
+
+/* Banner 4 button */
+.btn-banner4 {
+    bottom: 12%;
+    left: 17%;
+}
+
+/* Banner 5 button */
+.btn-banner5 {
+    bottom: 8%;
+    left: 20%;
+}
+
+/* ------------------------------------------- */
+/* BANNER IMAGES */
+/* ------------------------------------------- */
+
+.third-banner img,
+.fourth-banner img,
+.fifth-banner img {
+    object-fit: cover;
+}
+
+
+/* ========================================= */
+/* RESPONSIVE FIX – KEEP ORIGINAL DESIGN */
+/* ========================================= */
+
+/* Make layout scale with screen width */
+@media (max-width: 1200px) {
+
+    .navbar {
+        left: 25%;
+        padding: 20px 40px;
+    }
+
+    .navbar ul li a {
+        font-size: 18px;
+    }
+
+    .cta-btn {
+        font-size: 18px;
+        padding: 12px 30px;
+    }
+}
+
+@media (max-width: 992px) {
+
+    .navbar {
+        left: 15%;
+        padding: 18px 30px;
+    }
+
+    .navbar ul {
+        gap: 25px;
+    }
+
+    .navbar ul li a {
+        font-size: 16px;
+    }
+
+    .logo {
+        font-size: 22px;
+    }
+
+    .cta-btn {
+        font-size: 16px;
+        padding: 10px 25px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .navbar {
+        left: 5%;
+        padding: 15px 20px;
+    }
+
+    .navbar ul {
+        gap: 15px;
+    }
+
+    .navbar ul li a {
+        font-size: 14px;
+    }
+
+    .logo {
+        font-size: 18px;
+    }
+
+    .cta-btn {
+        font-size: 14px;
+        padding: 8px 20px;
+    }
+}
+
+@media (max-width: 576px) {
+
+    .navbar {
+        left: 0;
+        padding: 10px 15px;
+    }
+
+    .navbar ul {
+        gap: 10px;
+    }
+
+    .navbar ul li a {
+        font-size: 12px;
+    }
+
+    .logo {
+        font-size: 16px;
+    }
+
+    .cta-btn {
+        font-size: 12px;
+        padding: 6px 15px;
+    }
+}
+
+/* ------------------------------------------- */
+/* MENU PAGE */
+/* ------------------------------------------- */
+
+
+.menu-section {
+    position: relative;
+}
+
+.menu-img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
