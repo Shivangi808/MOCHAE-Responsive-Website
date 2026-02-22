@@ -28,7 +28,7 @@ body {
 .navbar {
     position: absolute;
     top: 0;
-    left: 500px;   /* Adjust as you need */
+    left: 500px;   
     width: 100%;
     padding: 25px 70px;
     display: flex;
@@ -131,7 +131,7 @@ body {
 /* RESPONSIVE FIX – KEEP ORIGINAL DESIGN */
 /* ========================================= */
 
-/* Make layout scale with screen width */
+
 @media (max-width: 1200px) {
 
     .navbar {
