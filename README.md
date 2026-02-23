@@ -1,4 +1,4 @@
-# MOCAE – Responsive Cafe Website ☕
+# MOCHAE – Responsive Cafe Website ☕
 
 A fully responsive multi-page cafe website built using HTML and CSS.
 
@@ -25,3 +25,4 @@ A fully responsive multi-page cafe website built using HTML and CSS.
 ---
 
 Built as part of my Frontend Development journey.
+
