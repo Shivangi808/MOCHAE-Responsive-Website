@@ -4,7 +4,7 @@
 A fully responsive multi-page cafe website built using HTML and CSS.
 
 ##  Live Demo
-[View Website](https://shivangi808.github.io/MOCAE-Responsive-Website/)
+[View Website](https://shivangi808.github.io/MOCHAE-Responsive-Website/)
 
 ## Features
 - Multi-page navigation (Home, Menu, About, Glimpse)
