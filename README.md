@@ -1,5 +1,4 @@
 
-=======
 # MOCHAE – Responsive Cafe Website ☕
 
 A fully responsive multi-page cafe website built using HTML and CSS.
